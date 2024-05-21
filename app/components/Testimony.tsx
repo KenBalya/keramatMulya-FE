@@ -4,40 +4,54 @@ import React from 'react'
 import { TestimonyCard } from './TestimonyCard'
 import Image from 'next/image'
 import Slider from 'react-slick'
-import { TestimonyCardProps } from './TestimonyCard'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
+// Dummy data
+const TESTIMONIES = [
+  {
+    name: "John Doe",
+    asalSma: "SMA 1 Jakarta",
+    testimony: "Desa Kramat Mulya adalah tempat yang luar biasa dengan tekstil berkualitas tinggi.",
+    imageUrl: "/images/john_doe.jpg",
+    star: 5
+  },
+  {
+    name: "Jane Smith",
+    asalSma: "SMA 2 Bandung",
+    testimony: "Produk dari Desa Kramat Mulya sangat terkenal dan diminati hingga mancanegara.",
+    imageUrl: "/images/jane_smith.jpg",
+    star: 4
+  },
+  // Add more dummy data as needed
+]
+
+const settings = {
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: true,
+  infinite: true,
+  speed: 500,
+  centerPadding: '100px',
+  responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+      },
+    },
+  ],
+}
+
 export const Testimony: React.FC = () => {
-  const TESTIMONIES = JSON.parse(
-    process.env.NEXT_PUBLIC_TESTIMONIES as string
-  ) as TestimonyCardProps[]
-
-  const settings = {
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    dots: true,
-    arrows: true,
-    infinite: true,
-    speed: 500,
-    centerPadding: '100px',
-    responsive: [
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 700,
-        settings: {
-          slidesToShow: 1,
-          arrows: false,
-        },
-      },
-    ],
-  }
-
   return (
     <div className="relative w-full pb-64">
       <div className="absolute w-full aspect-[0.7] bottom-0 left-0 z-10 pointer-events-none">
@@ -62,12 +76,11 @@ export const Testimony: React.FC = () => {
           <Slider {...settings}>
             {TESTIMONIES.map((testimony, index) => (
               <div key={index} className="px-2">
-              <TestimonyCard {...testimony} />
-            </div>
+                <TestimonyCard {...testimony} />
+              </div>
             ))}
           </Slider>
         </div>
-        
       </div>
     </div>
   )

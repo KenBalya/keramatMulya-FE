@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 type Product = {
     id: number;
@@ -47,7 +46,7 @@ const Card = () => {
                 wa_link: "",
                 ig_link: ""
             },
-            // Add more products as needed
+            
         ];
 
         setData(dummyData);
