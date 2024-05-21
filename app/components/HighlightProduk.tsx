@@ -57,14 +57,7 @@ export const HighlightProduk: React.FC = () => {
 
   return (
     <div className="relative w-full pb-64">
-      <div className="absolute w-full aspect-[0.7] bottom-0 left-0 z-10 pointer-events-none">
-        <Image
-          src="/images/DeepSea2.png"
-          fill
-          className="object-fill object-bottom"
-          alt="Deep Sea"
-        />
-      </div>
+      
       <div className="flex flex-col items-center gap-4 sm:gap-14 container relative z-30">
         <div className="relative flex flex-col items-center gap-3 sm:gap-7">
           <h2 className="text-[#3E362E] font-Milonga text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
