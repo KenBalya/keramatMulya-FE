@@ -11,14 +11,14 @@ import 'slick-carousel/slick/slick-theme.css'
 const TESTIMONIES = [
   {
     name: "John Doe",
-    asalSma: "SMA 1 Jakarta",
+    asalSma: "Rengasdengklok",
     testimony: "Desa Kramat Mulya adalah tempat yang luar biasa dengan tekstil berkualitas tinggi.",
     imageUrl: "/images/john_doe.jpg",
     star: 5
   },
   {
     name: "Jane Smith",
-    asalSma: "SMA 2 Bandung",
+    asalSma: "Cirebon",
     testimony: "Produk dari Desa Kramat Mulya sangat terkenal dan diminati hingga mancanegara.",
     imageUrl: "/images/jane_smith.jpg",
     star: 4
