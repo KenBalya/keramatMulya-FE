@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar/>
+        <main className="min-h-screen bg-gradient-to-b from-[#FED8B1] via-[#ECB176] to-[#A67B5B]">
+            {children}
+        </main>
+        <Footer/>
+        </body>
     </html>
   );
 }
