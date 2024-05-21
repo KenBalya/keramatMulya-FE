@@ -17,10 +17,10 @@ export const NavbarNormal: React.FC<NavbarProps> = ({
           <Link href="/">
             <Image
               src={'/logoDesa.png'}
-              alt="logobetis2024"
+              alt="logodesa"
               width={80}
               height={80}
-              className="object-fill fill-inherit"
+              className="object-fill fill-inherit md:w-[80px] md:h-[80px] w-[40px] h-[40px]"
               priority
             />
           </Link>
@@ -39,12 +39,6 @@ export const NavbarNormal: React.FC<NavbarProps> = ({
           Beranda
         </Link>
         <Link
-          href="/about"
-          className="font-bold capitalize hover:text-pink-500 duration-200"
-        >
-          Tentang Kami
-        </Link>
-        <Link
           href="/produk"
           className="font-bold capitalize hover:text-pink-500 duration-200"
         >
@@ -58,15 +52,17 @@ export const NavbarNormal: React.FC<NavbarProps> = ({
         </Link>
       </div>
       <div className="hidden lg:flex gap-x-4 lg:gap-x-4 xl:gap-x-8 w-1/5 justify-end">
-      <button
+        <Link href="http://karamatmulya.desa.id/">
+        <button
             className="bg-[#6F4E37] hover:bg-[#3c2616] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         >
             Lihat Profil Desa
         </button>
+        </Link>
       </div>
       <button
         onClick={handleClicked}
-        className="lg:hidden text-[#070402] font-bold "
+        className="lg:hidden text-[#070402] font-bold"
       >
         <Bars3Icon height={30} width={30} />
       </button>

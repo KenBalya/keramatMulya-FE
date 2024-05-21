@@ -1,11 +1,6 @@
-
 import HomeModule from "./components/HomeModule";
+import { NextPage } from "next";
 
-export default function Home() {
-  return (
-    <main>
-      <HomeModule/>
-      
-    </main>
-  );
-}
+const Home: NextPage = () => <HomeModule />
+
+export default Home

@@ -1,29 +1,33 @@
 import React from 'react';
 const Page = () => {
     return (
-        <div className="relative z-10">
-      <header className="min-h-screen xl:min-h-[110vh] 2xl:min-h-[150vh] bg-gradient-to-b from-[#67B6F3] via-[#3252C3] to-[#1966CE] relative">
-        <div className="w-full h-screen flex justify-center items-center relative">
-          <div className="flex flex-col justify-center items-center gap-4">
-            <div className="flex flex-col justify-center items-center ">
-              <h1 className="text-[#ffffff] font-extrabold text-4xl sm:text-6xl lg:text-7xl xl:text-8xl flex items-center">
-                <span>About</span>
-                <span className="text-[#6BCAFF] font-extrabold text-6xl sm:text-8xl lg:text-9xl xl:text-[10rem] text-center">
-                  BETIS
-                </span>
-              </h1>
-              <span className="text-lg sm:text-2xl md:text-3xl lg:text-4xl text-[#ffffff] font-semibold text-center">
-                Bimbingan Belajar Gratis
-              </span>
-            </div>
-            <a href="#whatisbetis">
-              <button className="text-sm sm:text-base md:text-lg lg:text-2xl font-bold px-10 py-3 md:px-8 lg:py-5 bg-gradient-to-r from-[#6BCAFF] via-[#59A0EA] to-[#68C0FB] text-white rounded-2xl">
-                Explore
-              </button>
-            </a>
-          </div>
+      <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white overflow-hidden shadow rounded-lg border w-full max-w-2xl">
+        <div className="px-4 py-5 sm:px-6">
+          <h3 className="text-lg leading-6 font-medium text-gray-900">Kontak Kami</h3>
+          <p className="mt-1 max-w-2xl text-sm text-gray-500">Berikut adalah informasi kontak kami</p>
         </div>
-      </header>
+        <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
+          <dl className="sm:divide-y sm:divide-gray-200">
+            <div className="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt className="text-sm font-medium text-gray-500">Nama</dt>
+              <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">Nama</dd>
+            </div>
+            <div className="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt className="text-sm font-medium text-gray-500">Nomor Telpon</dt>
+              <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">Nomor Telpon</dd>
+            </div>
+            <div className="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt className="text-sm font-medium text-gray-500">Email</dt>
+              <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">Email</dd>
+            </div>
+            <div className="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt className="text-sm font-medium text-gray-500">Alamat</dt>
+              <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">Alamat</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
     </div>
     );
 };

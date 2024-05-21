@@ -26,9 +26,26 @@ export const Drawer: React.FC<DrawerProps> = ({ isClicked, closeNavbar }) => {
                     >
                         <Link
                             href="/"
-                            className={`bg-white text-start block w-full h-full px-4 py-5`}
+                            className={`bg-white text-start block w-full h-full px-4 py-5 text-black`}
                         >
-                            Home
+                            Beranda
+                        </Link>
+                    </button>
+                    <button
+                        onClick={closeNavbar}
+                        className="z-40 w-full text-black capitalize font-bold"
+                    >
+    
+                    </button>
+                    <button
+                        onClick={closeNavbar}
+                        className="z-40 w-full text-black capitalize font-bold"
+                    >
+                        <Link
+                            href="/produk"
+                            className={`bg-white text-start block w-full h-full px-4 py-5 text-black`}
+                        >
+                            Produk Kami
                         </Link>
                     </button>
                     <button
@@ -36,36 +53,14 @@ export const Drawer: React.FC<DrawerProps> = ({ isClicked, closeNavbar }) => {
                         className="z-40 w-full text-black capitalize font-bold"
                     >
                         <Link
-                            href="/about"
-                            className={`bg-white text-start block w-full h-full px-4 py-5`}
+                            href="/kontak"
+                            className={`bg-white text-start block w-full h-full px-4 py-5 text-black`}
                         >
-                            About
-                        </Link>
-                    </button>
-                    <button
-                        onClick={closeNavbar}
-                        className="z-40 w-full text-black capitalize font-bold"
-                    >
-                        <Link
-                            href="/about"
-                            className={`bg-white text-start block w-full h-full px-4 py-5`}
-                        >
-                            Services
-                        </Link>
-                    </button>
-                    <button
-                        onClick={closeNavbar}
-                        className="z-40 w-full text-black capitalize font-bold"
-                    >
-                        <Link
-                            href="/about"
-                            className={`bg-white text-start block w-full h-full px-4 py-5`}
-                        >
-                            Contact
+                            Kontak
                         </Link>
                     </button>
                     <Link
-                        href="/login"
+                        href="http://karamatmulya.desa.id/"
                         className={`bg-[#6F4E37] text-white px-4 py-5 rounded-b-md`}
                     >
                         <div className="z-40 text-white capitalize font-bold">Lihat Profil Desa</div>

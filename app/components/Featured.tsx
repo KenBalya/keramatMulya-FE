@@ -15,8 +15,8 @@ export const Featured: React.FC = () => {
       </div>
       <div className="flex gap-4 sm:gap-6 lg:gap-10 w-full flex-col md:flex-row">
         <FeatureCard description="Total Prestasi" total="115" />
-        <FeatureCard description="Total Korupsi" total="21" />
-        <FeatureCard description="Jumlah Korputor" total="7" />
+        <FeatureCard description="Total Pendapatan" total="21" />
+        <FeatureCard description="Jumlah Kreasi" total="7" />
       </div>
     </section>
   )
