@@ -13,14 +13,14 @@ const TESTIMONIES = [
     name: "John Doe",
     asalSma: "Rengasdengklok",
     testimony: "Desa Kramat Mulya adalah tempat yang luar biasa dengan tekstil berkualitas tinggi.",
-    imageUrl: "/images/john_doe.jpg",
+    imageUrl: "/gg.jpg",
     star: 5
   },
   {
     name: "Jane Smith",
     asalSma: "Cirebon",
     testimony: "Produk dari Desa Kramat Mulya sangat terkenal dan diminati hingga mancanegara.",
-    imageUrl: "/images/jane_smith.jpg",
+    imageUrl: "/gg2.jpeg",
     star: 4
   },
   // Add more dummy data as needed
