@@ -70,7 +70,7 @@ export const HighlightProduk: React.FC = () => {
           <h2 className="text-[#3E362E] font-Milonga text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
             Produk Unggulan Desa Kami
           </h2>
-          <span className="font-bold text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center text-[#AC8968]">
+          <span className="font-bold text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center text-[#fad6b3]">
             Berikut adalah produk dengan daya jual tertinggi di desa Karamat Mulya
           </span>
         </div>
