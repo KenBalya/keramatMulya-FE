@@ -62,7 +62,7 @@ export const Testimony: React.FC = () => {
           </h2>
           
           <span className="font-bold text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center text-[#AC8968]">
-            Testimoni dari para pelanggan tekstil Desa Karamat Mulya
+            Testimoni dari para pelanggan Desa Karamat Mulya
           </span>
         </div>
         <div className="w-full relative">

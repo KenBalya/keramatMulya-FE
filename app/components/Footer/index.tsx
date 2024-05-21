@@ -45,9 +45,9 @@ export const Footer: React.FC = () => (
               height={200}
             />
             <div className="z-10 text-center md:text-start">
-              <h1 className="font-extrabold text-4xl">Desa Karamat Mulya</h1>
+              <h1 className="font-extrabold text-3xl">Desa Karamat Mulya</h1>
               <h4 className="text-xl tracking-wide font-semibold">
-                Kampung Ahli Tekstil
+                Kampung Gamis
               </h4>
             </div>
           </div>
@@ -64,7 +64,7 @@ export const Footer: React.FC = () => (
               alt="Telkom University"
               width={100}
               height={100}
-              className="w-[95%] max-w-[500px]"
+              className="md:w-[95%] md:max-w-[500px] w-[30%]"
             />
           </div>
         </div>
@@ -72,7 +72,6 @@ export const Footer: React.FC = () => (
           <div className="z-10">
             <div className="md:w-[500px] w-full my-2 border-[0.5px] border-white"></div>
             <div className="flex gap-4 md:gap-10 text-xl md:text-[24px] font-bold font-open-sans md:mb-10">
-              <Link href="/about">About</Link>
               <Link href="/kontak"> Kontak </Link>
               <Link href="/produk"> Produk </Link>
             </div>
