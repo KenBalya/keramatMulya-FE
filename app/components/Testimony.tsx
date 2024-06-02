@@ -53,7 +53,7 @@ const settings = {
 
 export const Testimony: React.FC = () => {
   return (
-    <div className="relative w-full pb-64">
+    <div className="relative w-full pb-64 flex flex-col items-center justify-center">
       
       <div className="flex flex-col items-center gap-4 sm:gap-14 container relative z-30">
         <div className="relative flex flex-col items-center gap-3 sm:gap-7">

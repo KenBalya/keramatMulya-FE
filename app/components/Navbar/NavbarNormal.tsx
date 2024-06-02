@@ -39,6 +39,12 @@ export const NavbarNormal: React.FC<NavbarProps> = ({
           Beranda
         </Link>
         <Link
+          href="/about"
+          className="font-bold capitalize hover:text-pink-500 duration-200 "
+        >
+          Tentang Kami
+        </Link>
+        <Link
           href="/produk"
           className="font-bold capitalize hover:text-pink-500 duration-200"
         >

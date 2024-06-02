@@ -5,7 +5,7 @@ import { Testimony } from './Testimony'
 import { HighlightProduk } from './HighlightProduk'
 const HomeModule = () => {
   return (
-    <div className='text-center items-center flex flex-col gap-10'>
+    <div className='text-center items-center flex flex-col gap-10 justify-center'>
         <HomeHero/>
         <Featured/>
         <Testimony/>

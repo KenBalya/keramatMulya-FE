@@ -3,7 +3,7 @@ import React from 'react';
 
 const HomeHero = () => {
     return (
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center"
+        <div className="relative pt-16 pb-32 flex content-center items-center justify-center w-full"
             style={{ minHeight: "75vh", backgroundImage: "url('/batik.webp')", backgroundSize: "cover", backgroundPosition: "center" }}>
 
             <div className="container relative mx-auto">
