@@ -78,6 +78,7 @@ export const Footer: React.FC = () => (
             </div>
           </div>
           <div className="z-20 invisible lg:visible text-md xl:text-lg w-0 md:w-1/2">
+          <Link href='https://maps.app.goo.gl/zwr6V7VxYMvxUtFE8'>
             <div className="flex items-center text-end justify-end mt-2">
               <pre className="text-end  text-gray-300 font-open-sans font-normal text-2xl">
               Jl. Legokkole No. 54, Soreang, <br />  Karamatmulya, Kec. Soreang, 
@@ -86,12 +87,15 @@ export const Footer: React.FC = () => (
               </pre>
               <Image
                 src="/location.svg"
-                alt="location"
+                alt="Klik untuk melihat lokasi"
                 width={60}
                 height={60}
                 className="w-5 md:w-16"
               />
+
+              
             </div>
+            </Link>
             <div className="flex gap-5 items-center justify-end mt-2 font-open-sans font-normal text-2xl">
               <pre className="tracking-wider">02285873004</pre>
               <Image
