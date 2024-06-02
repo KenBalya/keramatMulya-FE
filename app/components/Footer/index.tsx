@@ -72,6 +72,7 @@ export const Footer: React.FC = () => (
           <div className="z-10">
             <div className="md:w-[500px] w-full my-2 border-[0.5px] border-white"></div>
             <div className="flex gap-4 md:gap-10 text-xl md:text-[24px] font-bold font-open-sans md:mb-10">
+            <Link href="/about">Tentang Kami</Link>
               <Link href="/kontak"> Kontak </Link>
               <Link href="/produk"> Produk </Link>
             </div>
