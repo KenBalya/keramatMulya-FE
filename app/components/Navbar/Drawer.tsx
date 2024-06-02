@@ -35,6 +35,17 @@ export const Drawer: React.FC<DrawerProps> = ({ isClicked, closeNavbar }) => {
                         onClick={closeNavbar}
                         className="z-40 w-full text-black capitalize font-bold"
                     >
+                        <Link
+                            href="/about"
+                            className={`bg-white text-start block w-full h-full px-4 py-5 text-black`}
+                        >
+                            Tentang Kami
+                        </Link>
+                    </button>
+                    <button
+                        onClick={closeNavbar}
+                        className="z-40 w-full text-black capitalize font-bold"
+                    >
     
                     </button>
                     <button

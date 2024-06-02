@@ -20,7 +20,7 @@ export const NavbarNormal: React.FC<NavbarProps> = ({
               alt="logodesa"
               width={80}
               height={80}
-              className="object-fill fill-inherit md:w-[80px] md:h-[80px] w-[40px] h-[40px]"
+              className="object-fill fill-inherit md:w-[70px] md:h-[70px] w-[40px] h-[40px]"
               priority
             />
           </Link>
